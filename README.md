@@ -1,8 +1,8 @@
 # Implementation of genetic algorithm in golang
 ***
-* This implementation use Goga package that provides some API to work with genetic algorithm, it building simple shapes and contours of original photo using primitive geometry figures.
+* This implementation use ***Goga package*** that provides some API to work with genetic algorithm, it building simple shapes and contours of original photo using primitive geometry figures.
 
-Goga is a genetic algorithm solution written in Golang. It is used and configured by injecting different behaviours into the main genetic algorithm object. The main injectable components are the simulator, selector and mater.
+***Goga*** is a genetic algorithm solution written in Golang. It is used and configured by injecting different behaviours into the main genetic algorithm object. The main injectable components are the simulator, selector and mater.
 
 The simulator provides a function that accepts a single genome and assigns a fitness score to it. The higher the fitness, the better the genome has done in the simulation. A genome can be simulated by however the application sees fit as long as it can be encoded into a bitset of 0s and 1s. A simulator also provides a function to tell the algorithm when to stop.
 
